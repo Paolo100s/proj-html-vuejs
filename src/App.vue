@@ -1,12 +1,13 @@
 <script>
 import { store } from './store';
 import PageHeader from './components/PageHeader.vue';
-
+import PageMain from './components/PageMain.vue';
 
 export default {
     components: {
         store,
         PageHeader,
+        PageMain
     },
     data() {
         return {
@@ -20,6 +21,10 @@ export default {
     <header>
         <PageHeader />
     </header>
+
+    <main>
+        <PageMain />
+    </main>
 </template>
 
 <style lang="scss">

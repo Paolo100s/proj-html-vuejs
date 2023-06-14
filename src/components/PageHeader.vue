@@ -101,13 +101,8 @@ export default {
 
         button {
             align-self: center;
-            color: $white;
-            background-color: $primary;
             font-weight: bold;
-            cursor: pointer;
             padding: 7px 20px;
-            border-radius: 20px;
-            border: none;
         }
     }
 
