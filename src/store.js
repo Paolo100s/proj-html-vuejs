@@ -16,5 +16,18 @@ export const store = reactive({
     }
     ],
     moversList: ['Home', 'Rates', 'Testimonials', 'Blog', 'Free Quote'],
-    posts: ['Heading Out To College?', 'Moving Your Business?', 'Outstanding Quality', 'Cost Of Moving', 'Best Moving Tips']
+    posts: ['Heading Out To College?', 'Moving Your Business?', 'Outstanding Quality', 'Cost Of Moving', 'Best Moving Tips'],
+    testimonials: [{
+        image: 'src/assets/img/movers/avada-movers-johndoe-final-200x200.jpg',
+        name: 'John Doe'
+    },
+    {
+        image: 'src/assets/img/movers/avada-movers-janedoe-final-200x200.jpg',
+        name: 'Jane Doe'
+    },
+    {
+        image: 'src/assets/img/movers/avada-movers-johnsmith-final-200x200.jpg',
+        name: 'John Smith'
+    }
+    ]
 })
