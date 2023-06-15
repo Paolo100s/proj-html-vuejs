@@ -14,5 +14,7 @@ export const store = reactive({
         image: 'src/assets/img/movers/avada-movers-servicetwophoto-final-200x128.jpg',
         title: 'Coast To Coast'
     }
-    ]
+    ],
+    moversList: ['Home', 'Rates', 'Testimonials', 'Blog', 'Free Quote'],
+    posts: ['Heading Out To College?', 'Moving Your Business?', 'Outstanding Quality', 'Cost Of Moving', 'Best Moving Tips']
 })

@@ -2,12 +2,14 @@
 import { store } from './store';
 import PageHeader from './components/PageHeader.vue';
 import PageMain from './components/PageMain.vue';
+import PageFooter from './components/PageFooter.vue';
 
 export default {
     components: {
         store,
         PageHeader,
-        PageMain
+        PageMain,
+        PageFooter
     },
     data() {
         return {
@@ -25,6 +27,10 @@ export default {
     <main>
         <PageMain />
     </main>
+
+    <footer>
+        <PageFooter />
+    </footer>
 </template>
 
 <style lang="scss">
